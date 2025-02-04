@@ -31,8 +31,12 @@
     }
 
     img {
-        display: none;
+        display: block; 
+        width: 100px; 
+        height: auto; 
+        margin-top: 20px; 
     }
+
 
     ul {
         text-align: center;
