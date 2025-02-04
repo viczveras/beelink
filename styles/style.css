@@ -1,13 +1,18 @@
-body{
+
+body {
     background-color: rgb(34, 34, 34);
     color: white;
     font-family: poppinsregular;
     max-width: 1200px;
     margin: 0 auto;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
 }
 
-header{
+
+header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -26,21 +31,20 @@ li {
     color: yellow;
 }
 
-
-
-span{
-    color:yellow;
+span {
+    color: yellow;
 }
 
 h1 {
     font-weight: 200;
 }
 
+
 main {
     display: flex;
     flex-direction: row;
     margin-top: 50px;
-
+    flex: 1; 
 }
 
 h2 {
@@ -55,29 +59,32 @@ p {
     font-family: poppinslight;
 }
 
-img{
+img {
     width: 580px;
     border-radius: 5%;
 }
 
-li:hover{
+
+li:hover {
     color: black;
     transition: 0.3s all;
 }
 
-#inscrito-btn{  
+#inscrito-btn {
     border: 2px solid white;
     padding: 10px;
-    border-radius: 6%;
-
+    border-radius: 15px;
 }
 
-#inscrito-btn:hover{
-    background-color: yellow;
-    color: white;
+#inscrito-btn:hover {
+    background-color: transparent; 
 }
 
-form{
+#inscrito-btn li:hover {
+    color: black; 
+}
+
+form {
     display: flex;
     flex-direction: column;
     width: 70%;
@@ -90,11 +97,12 @@ form [type="submit"] {
     color: white;
     font-weight: bold;
 }
+
 form [type="submit"]:hover {
     cursor: pointer;
 }
 
-input{
+input {
     margin-top: 20px;
     height: 20px;
     padding: 15px;
@@ -102,3 +110,12 @@ input{
     border: none;
     font-size: 15px;
 }
+
+article img {
+    transition: box-shadow 0.3s ease;
+}
+
+article img:hover {
+    box-shadow: 0 0 20px rgba(255, 223, 0, 0.8);
+}
+
