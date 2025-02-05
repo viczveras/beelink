@@ -7,3 +7,5 @@ Foi realizado um site para um agregador de links com algumas funcionalidades, ta
 
 <h3>Preview Cellphone</h3>
 ![cellphone](https://i.imgur.com/4Tjj4ew.png)
+
+![ifpb](https://estudante.ifpb.edu.br/static/ps/imagens/ifpb-vertical.png)
