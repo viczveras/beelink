@@ -12,4 +12,4 @@ Foi realizado um site para um agregador de links com algumas funcionalidades, ta
 
 
 
-![ifpb](https://estudante.ifpb.edu.br/static/ps/imagens/ifpb-vertical.png)
+
