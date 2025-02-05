@@ -1,4 +1,5 @@
 @media screen and (max-width: 760px) {
+    /* Estilos para o header */
     header {
         flex-direction: column;
         text-align: center;
@@ -8,6 +9,7 @@
         margin-bottom: 20px;
     }
 
+    /* Estilos para o main */
     main {
         flex-direction: column;
         align-items: center;
@@ -30,14 +32,6 @@
         margin-top: 15px;
     }
 
-    img {
-        display: block; 
-        width: 100px; 
-        height: auto; 
-        margin-top: 20px; 
-    }
-
-
     ul {
         text-align: center;
         padding: 0;
@@ -50,10 +44,68 @@
 
     #inscrito-btn {
         margin-top: 10px;
-        border: none; 
+        border: none;
     }
 
     #inscrito-btn li:hover {
-        color: black; 
+        color: black;
+    }
+
+    /* Estilos para a nova div .preview-section */
+    .preview-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .preview-section .preview-image img {
+        width: 80%;
+        max-width: 300px; /* Ajuste o tamanho conforme necessário */
+        margin-bottom: 20px;
+    }
+
+    .preview-section .preview-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .preview-section .preview-text h2 {
+        font-size: 28px;
+        line-height: 1.2;
+    }
+
+    .preview-section .social-icons {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 20px;
+    }
+
+    .preview-section .social-icons a {
+        font-size: 20px;
+    }
+
+    /* Estilos para centralizar a imagem GIF */
+    article {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    article img {
+        width: 80%;
+        max-width: 300px;
+        /* Adicionando margem ao redor da imagem */
+        margin: 20px 0;
+    }
+
+    /* Estilos para garantir que o aside e a article estejam alinhados verticalmente */
+    .content-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
