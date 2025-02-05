@@ -1,111 +1,109 @@
 @media screen and (max-width: 760px) {
     /* Estilos para o header */
     header {
-        flex-direction: column;
-        text-align: center;
+        flex-direction: column; /* Organiza o header em coluna */
+        text-align: center; /* Centraliza o texto */
     }
 
     #title {
-        margin-bottom: 20px;
+        margin-bottom: 20px; 
     }
 
-    /* Estilos para o main */
     main {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
+        flex-direction: column; /* Organiza o main em coluna */
+        align-items: center; /* Centraliza os itens */
+        text-align: center; /* Centraliza o texto */
     }
 
     h2 {
-        font-size: 38px;
-        line-height: 1.2;
+        font-size: 38px; 
+        line-height: 1.2; /* Define o espaçamento entre linhas */
     }
 
     form {
-        margin: 0 auto;
-        width: 90%;
+        margin: 0 auto; /* Centraliza o formulário */
+        width: 90%; /* Define a largura do formulário */
     }
 
     input {
-        align-self: center;
-        width: 100%;
-        margin-top: 15px;
+        align-self: center; 
+        width: 100%; /* Define a largura total dos inputs */
+        margin-top: 15px; /* Adiciona margem superior aos inputs */
     }
 
     ul {
-        text-align: center;
-        padding: 0;
+        text-align: center; 
+        padding: 0; /* Remove o padding */
     }
 
     li {
-        display: block;
-        margin: 10px 0;
+        display: block; /* Exibe os itens de lista como blocos */
+        margin: 10px 0; /* Adiciona margem vertical aos itens de lista */
     }
 
     #inscrito-btn {
-        margin-top: 10px;
-        border: none;
+        margin-top: 10px; /* Adiciona margem superior */
+        border: none; /* Remove a borda do cellphone mode pois estava quebrando*/
     }
 
     #inscrito-btn li:hover {
-        color: black;
+        color: black; 
     }
 
-    /* Estilos para a nova div .preview-section */
+   
     .preview-section {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        margin-top: 30px;
+        display: flex; /* Define o flexbox */
+        flex-direction: column; /* organiza os itens em coluna */
+        align-items: center; 
+        text-align: center; 
+        margin-top: 30px; 
     }
 
     .preview-section .preview-image img {
-        width: 80%;
-        max-width: 300px; /* Ajuste o tamanho conforme necessário */
-        margin-bottom: 20px;
+        width: 80%; 
+        max-width: 300px; 
+        margin-bottom: 20px; 
     }
 
     .preview-section .preview-text {
-        width: 100%;
-        text-align: center;
+        width: 100%; 
+        text-align: center; 
     }
 
     .preview-section .preview-text h2 {
-        font-size: 28px;
-        line-height: 1.2;
+        font-size: 28px; 
+        line-height: 1.2; /* Define o espaçamento entre linhas */
     }
 
     .preview-section .social-icons {
-        display: flex;
-        justify-content: center;
-        gap: 15px;
-        margin-top: 20px;
+        display: flex; /* Define um layout flexível */
+        justify-content: center; /* Centraliza os ícones */
+        gap: 15px; /* Define o espaçamento entre os ícones */
+        margin-top: 20px; /* Adiciona espaçamento superior */
     }
 
     .preview-section .social-icons a {
-        font-size: 20px;
+        font-size: 20px; 
     }
 
-    /* Estilos para centralizar a imagem GIF */
+    /* estilos para centralizar o gif */
     article {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        margin-bottom: 20px;
+        display: flex; /* Define um layout flexível */
+        justify-content: center; /* Centraliza a imagem */
+        width: 100%; 
+        margin-bottom: 20px; 
     }
 
     article img {
-        width: 80%;
-        max-width: 300px;
-        /* Adicionando margem ao redor da imagem */
-        margin: 20px 0;
+        width: 80%; 
+        max-width: 300px; 
+        margin: 20px 0; 
     }
 
-    /* Estilos para garantir que o aside e a article estejam alinhados verticalmente */
+    /* estilos para alinhar aside e article */
     .content-wrapper {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        display: flex; /* Define um layout flexível */
+        flex-direction: column; /* Organiza os itens em coluna */
+        align-items: center; /* Centraliza os itens */
     }
 }
