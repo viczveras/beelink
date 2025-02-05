@@ -6,4 +6,4 @@ Apresentação do Projeto de LM
 Foi realizado um site para um agregador de links com algumas funcionalidades, tais como a utilização de hover, transitions, estudo de responsividade, entre outros elementos.
 
 <h3>Preview Cellphone</h3>
-![image](https://imgur.com/a/ARUYE67)
+![image](https://i.imgur.com/4Tjj4ew.png)
