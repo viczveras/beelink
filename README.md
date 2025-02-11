@@ -8,7 +8,9 @@
 
 <h3>Preview Cellphone</h3>
 
-![cellphone](https://i.imgur.com/4Tjj4ew.png)
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/4Tjj4ew.png" alt="cellphone">
+</div>
 
 
 
